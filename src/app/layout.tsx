@@ -25,7 +25,7 @@ export default function RootLayout({
         <Providers>
           <Header />
         </Providers>
-        <p> TEST !!</p>
+        
       </body>
     </html>
   );
