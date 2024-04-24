@@ -3,10 +3,6 @@ import type { AdapterAccount } from "next-auth/adapters"
 import { randomUUID } from "crypto"
 export const popularityEnum = pgEnum('popularity', ['unknown', 'known', 'popular']);
 
-export const test = pgTable('test', {
-  id: text('id').notNull().primaryKey(),
-  name: text('name').notNull()
-})
 
 
 export const users = pgTable("user", {
